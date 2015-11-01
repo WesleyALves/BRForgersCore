@@ -1,0 +1,73 @@
+[
+{
+  "modid": "TFHCore",
+  "name": "TFHCore",
+  "description": "Libs, Mod-Sharing Classes and Variables, Some Addons and Tweaks Modules. A Bit of everything!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheFreeHigh"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "DragonTech",
+  "name": "§5§lDragonTech§f§l2",
+  "description": "Dragon-related things, and also a bit of magic!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheFreeHigh"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "DTHighlands",
+  "name": "§5§lDragonTech§f§l2: "§6§lHighlands!",
+  "description": "Dragon-related dimensions, and also a bit of biomes!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheFreeHigh"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+
+{
+  "modid": "BlocksNItems",
+  "name": "§6§lTFH: §4§lBlocks §fn' §4§lItems",
+  "description": "Decoration Blocks and some cool things!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheFreeHigh"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "MoarRecipes",
+  "name": "§6§lMoarRecipes",
+  "description": "Even More Recipes for Minecraft!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheFreeHigh"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

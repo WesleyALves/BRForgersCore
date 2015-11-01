@@ -1,0 +1,24 @@
+//Interface
+itemGroup.tabDragonTech=DragonTech
+
+//Blocos
+tile.LivingObsidian.name=Obsidiana Viva
+
+//Itens
+item.EnderStar.name=Estrela do Fim
+item.DragonStar.name=Estrela de Dragão
+item.DragonScale.name=Escama de Dragão
+item.DragonWing.name=Asa de Dragão
+item.Soulbinder.name=Ponte de Almas
+item.DragonSoulbinder.name=Alma de Dragão <WIP>
+item.EnderTrailMix.name=Ender Trail Mix <WIP>
+item.NightnyEgg.name=Ovo da Nightny <WIP>
+
+item.DragonScaleHelmet.name=Capuz de Escamas de Dragão
+item.DragonScaleChestplate.name=Túnica de Escamas de Dragão
+item.DragonScaleLeggings.name=Calças de Escamas de Dragão
+item.DragonScaleBoots.name=Botas de Escamas de Dragão
+
+//Mensagens
+msg.NightnyEgg.txt=Nightny não esta pronta para sair do ovo, assim como o código nao está pronto ainda.
+msg.DragonSoulbinder.txt=Então voce quer fundir-se a um Dragão? Tudo bem, mas espere até eu terminar o codigo!

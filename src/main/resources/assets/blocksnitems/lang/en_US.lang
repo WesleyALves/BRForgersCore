@@ -1,0 +1,13 @@
+//Interface
+itemGroup.tabTFH=TFH: Blocks n' Items
+
+//Blocks
+tile.DragonBlock.name=Dragon-Shaped Ornated Orange Block
+tile.OrnateOrangeBlock.name=Ornated Orange Block
+tile.fakeRedstoneBlock.name=Fake Redstone Block
+tile.TFHBlock.name=TFH-Shaped Iron Block
+
+//Items
+item.DragonShape.name=Dragon-Shaped Iron Symbol
+item.TFHPlate.name=TFH-Shaped Iron Plate
+item.TFHBadge.name=TFH Badge

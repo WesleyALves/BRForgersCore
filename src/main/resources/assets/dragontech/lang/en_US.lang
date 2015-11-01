@@ -1,0 +1,25 @@
+//Interface
+itemGroup.tabDragonTech=DragonTech
+
+//Blocks
+tile.LivingObsidian.name=Living Obsidian
+tile.ObsidianGlass.name=Obsidian Glass
+
+//Items
+item.EnderStar.name=Ender Star
+item.DragonStar.name=Dragon Star
+item.DragonScale.name=Dragon Scale
+item.DragonWing.name=Dragon Wing
+item.Soulbinder.name=Soulbinder
+item.DragonSoulbinder.name=Dragon Soulbinder <WIP>
+item.EnderTrailMix.name=Ender Trail Mix <WIP>
+item.NightnyEgg.name=Nightny Egg <WIP>
+
+item.DragonScaleHelmet.name=Dragon Scale Helmet
+item.DragonScaleChestplate.name=Dragon Scale Chestplate
+item.DragonScaleLeggings.name=Dragon Scale Leggings
+item.DragonScaleBoots.name=Dragon Scale Boots
+
+//Messages
+msg.NightnyEgg.txt=Nightny is not ready to exit the egg, as the code isn't ready yet.
+msg.DragonSoulbinder.txt=You want to share your soul with a Dragon, huh? Okay, but wait until I code these for you.
