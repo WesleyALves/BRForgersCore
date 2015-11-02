@@ -5,9 +5,12 @@ Thumbs.db
 /.gradle
 /build
 
-
 ## ForgeGradle
 /run
+
+## NetBeans
+/nbbuild
+/nbproject
 
 ## Eclipse
 /.settings
