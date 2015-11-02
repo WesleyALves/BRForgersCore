@@ -3,8 +3,11 @@ package brazillianforgers.core;
 import brazillianforgers.lib.ObjectStorage;
 
 /**
- * BrazillianForgersLib: A "Common" ObjectLib for Mod Interaction
+ * BRForgersLib: A "Common" ObjectLib for Mod Interaction
  */
-public class BRForgersLib extends ObjectStorage{
-	BRForgersLib() {super();}
+public class BRForgersLib
+{
+	public static ObjectStorage variables = new ObjectStorage();
+	public static boolean isClient = false;
+	public static String playername = "";
 }
