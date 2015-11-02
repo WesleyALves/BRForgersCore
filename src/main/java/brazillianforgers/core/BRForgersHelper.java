@@ -8,19 +8,19 @@ import brazillianforgers.lib.ObjectStorage;
  * All things defined from BRForgersCore
  * @author brazillianforgers
  */
-public class TFHHelper
+public class BRForgersHelper
 {
 	/**
-	 * TFHLib unique instance. Get it with TFHHelper.getLib()
+	 * BrazillianForgersLib unique instance. Get it with BrazillianForgersHelper.getLib()
 	 */
-	private static TFHLib lib;
+	private static BRForgersLib lib;
 	
 	/**
-	 * Get the TFHLib instance.
-	 * @return the TFHLib instance
+	 * Get the BrazillianForgersLib instance.
+	 * @return the BrazillianForgersLib instance
 	 */
-    public static TFHLib getLib() {
-        if (lib == null) {lib = new TFHLib(); lib.booleans.put("init",false);}
+    public static BRForgersLib getLib() {
+        if (lib == null) {lib = new BRForgersLib(); lib.booleans.put("init",false);}
         return lib;
     }
     

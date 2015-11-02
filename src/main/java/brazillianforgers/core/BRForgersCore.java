@@ -48,40 +48,31 @@ public class BRForgersCore
 		/* Get Configs */
 		Configuration config = new Configuration(e.getSuggestedConfigurationFile());
 		config.load();
-		configLib.booleans.put("CAPES_loadExtraCapesFile", 
-				config.getBoolean("CAPES", "loadExtraCapesFile", false, "Enable the 'ExtraCapes.json' to be loaded by TFHCapes")
-		);
-		
-		configLib.integers.put("CORE_randomSeed",
-				config.getInt("CRAFTING", "main", 0, Integer.MIN_VALUE, Integer.MAX_VALUE, "Random Seed for TFH Mods Random (0 = AUTOMATIC)")
-		);
 		
 		/* Start Modules */
 		logger.debug("Loading PreInitialization Modules..");
 		
-		/* Init TFHLib */
-		logger.info("Starting TFHLib..");
+		/* Init BrazillianForgersLib */
+		logger.info("Starting BrazillianForgersLib..");
 		
-		TFHLib lib = TFHHelper.getLib();
+		BRForgersLib lib = BRForgersHelper.getLib();
 		
 		lib.booleans.put("isClient",(FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT));
-		String u = (FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT) ? Minecraft.getMinecraft().getSession().getUsername() : "Server Owner";
+		String u = (FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT) ? Minecraft.getMinecraft().getSession().getUsername() : "Server";
 		lib.strings.put("username", u);
 		
-		logger.info("TFHLib Loaded.");
+		logger.info("BrazillianForgersLib Loaded.");
 		
 		/* Create Random */
 		logger.info("Creating Random..");
 		
-		int seed = configLib.integers.get("CORE_randomSeed");
-		
-		TFHHelper.randomGen = (seed!=0) ? new Random(seed) : new Random();
+		BRForgersHelper.randomGen = new Random();
 		
 		/* Ending PreInit */
 		logger.debug("All PreInit Modules Loaded!");
-		logger.info("Thanks '"+ lib.strings.get("username") +"' for playing with TFH Mods!");
+		logger.info("Thanks '"+ lib.strings.get("username") +"' for playing with BrazillianForgers Mods!");
 		lib.booleans.put("init", true);
-		TFHHelper.varInitDone = true;
+		BRForgersHelper.varInitDone = true;
 	}
 	
 	@EventHandler
