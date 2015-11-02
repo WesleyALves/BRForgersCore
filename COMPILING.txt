@@ -1,0 +1,9 @@
+1. EXECUTE gradlew.bat build
+2. COPY from build/libs to /build
+3. EXECUTE gradlew.bat jar
+4. RENAME from *.jar to *.deobf.jar and COPY to /build
+5. EXECUTE srcJar.bat and CREATE ZIP *.src.zip
+
+%FILE%.jar > Game Jar
+%FILE%.deobf.jar > Game Lib for Eclipse
+%FILE%.src.zip > Source
