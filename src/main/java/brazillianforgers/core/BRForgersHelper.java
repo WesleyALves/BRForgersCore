@@ -23,11 +23,6 @@ public class BRForgersHelper
         if (lib == null) {lib = new BRForgersLib(); lib.booleans.put("init",false);}
         return lib;
     }
-    
-    /**
-	 * A "Common" Random() for the Mods
-	 */
-	public static Random randomGen;
 	
 	/**
 	 * Variable that is setted to TRUE at the End of the Variable initialization
@@ -38,7 +33,7 @@ public class BRForgersHelper
 	 * Check if the Variables have been Initializated
 	 * @return
 	 */
-	public static boolean varInitDone()
+	public static boolean initDone()
 	{
 		return varInitDone;
 	}

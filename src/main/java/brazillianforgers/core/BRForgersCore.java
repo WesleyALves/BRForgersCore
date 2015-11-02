@@ -63,11 +63,6 @@ public class BRForgersCore
 		
 		logger.info("BrazillianForgersLib Loaded.");
 		
-		/* Create Random */
-		logger.info("Creating Random..");
-		
-		BRForgersHelper.randomGen = new Random();
-		
 		/* Ending PreInit */
 		logger.debug("All PreInit Modules Loaded!");
 		logger.info("Thanks '"+ lib.strings.get("username") +"' for playing with BrazillianForgers Mods!");
