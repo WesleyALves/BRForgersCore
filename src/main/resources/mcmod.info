@@ -1,7 +1,7 @@
 [
 {
-  "modid": "TFHCore",
-  "name": "TFHCore",
+  "modid": "BRForgersCore",
+  "name": "BRForgersCore",
   "description": "Libs, Mod-Sharing Classes and Variables, Some Addons and Tweaks Modules. A Bit of everything!",
   "version": "${version}",
   "mcversion": "${mcversion}",

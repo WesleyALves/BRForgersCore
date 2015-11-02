@@ -72,7 +72,6 @@ public class Recipe
 		this.furnaceInput = input;
 		this.furnaceXp = xp;
 	}
-	
 	public Recipe(IRecipe recipe)
 	{		this.type = RecipeType.IRECIPE;
 		this.recipe = recipe;
