@@ -20,7 +20,6 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.config.Configuration;
-import brazillianforgers.lib.ItemNBTHelper;
 import brazillianforgers.lib.ObjectStorage;
 
 /**
