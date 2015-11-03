@@ -35,7 +35,7 @@ public class Recipe
 	 * @param recipeForm Format of the Recipe
 	 * @param inputs Values for the Recipe Format (RecipeValue[]) Inputs
 	 */
-	public Recipe(ItemStack output, String[] recipeForm, RecipeValue[] inputs)
+	public Recipe(ItemStack output, String[] recipeForm, RecipeValue... inputs)
 	{		this.type = RecipeType.SHAPED;
 		this.output = output;
 		//this.recipeForm = recipeForm;
@@ -58,7 +58,7 @@ public class Recipe
 	 * @param recipeForm Format of the Recipe
 	 * @param inputs Items ({@link ItemStack}[]) used in Recipe
 	 */
-	public Recipe(ItemStack output, ItemStack[] inputs)
+	public Recipe(ItemStack output, ItemStack... inputs)
 	{		this.type = RecipeType.SHAPELESS;
 		this.output = output;
 		ItemStack[] parsedInputs = {};
