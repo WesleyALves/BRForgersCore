@@ -1,5 +1,6 @@
 package brazillianforgers.lib.RecipeHelper;
 
+import brazillianforgers.lib.ArrayHelper;
 import brazillianforgers.lib.StringHelper;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
@@ -42,10 +43,11 @@ public class Recipe
 		this.shapedRecipeFormat[1] = recipeForm[1];
 		this.shapedRecipeFormat[2] = recipeForm[2];
 		
+		
 		RecipeValue[] parsedInputs = {};
-		char[] parsedChars = {};
+		Character[] parsedChars = {};
 		for (RecipeValue eachInput : inputs)
-			if (parsedInputs.length < 10 && StringHelper.find(parsedChars, eachInput.id) != -1)
+			if (parsedInputs.length < 10 && ArrayHelper.findOnArray(parsedChars, new Character(eachInput.id)) == -1)
 			{parsedInputs[parsedInputs.length] = eachInput; parsedChars[parsedChars.length] = eachInput.id;};
 		this.shapedRecipeInputs = parsedInputs;
 	}

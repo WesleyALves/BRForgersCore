@@ -75,19 +75,4 @@ public class StringHelper {
     	}
     	return -1;
     }
-    
-    /**
-     * Find a Character on a Array
-     * @param array the String Array
-     * @param str the String to be searched
-     * @return the Index of the String (or -1 if not found)
-     */
-    public static int find(char[] array, char str)
-    {
-    	for (int i = 0; i < array.length; i++)
-    	{
-    		if (array[i]==str) {return i;}
-    	}
-    	return -1;
-    }
 }
