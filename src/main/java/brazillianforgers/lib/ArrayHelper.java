@@ -1,5 +1,7 @@
 package brazillianforgers.lib;
 
+import brazillianforgers.lib.RecipeHelper.Recipe;
+
 public class ArrayHelper
 {
 	/**
@@ -14,5 +16,25 @@ public class ArrayHelper
     		if (array[i]==obj) {return i;}
     	}
     	return -1;
+	}
+	
+	public static <T> T[] addToArray(T[] array, T obj) {
+		array[array.length] = obj;
+		return array;
+	}
+	
+	public static <T> T[] mergeArrays(T[] newArray, T[]... arrays) {
+		for(T[] eachArray : arrays)
+			for(T eachObject : eachArray)
+				newArray[newArray.length] = eachObject;
+		return newArray;
+				
+	}
+	
+	public static <T> T[] removeFromArray(T[] array, T[] newArray, T obj, boolean NotMode) {
+		for(T eachObject : array)
+			if ((eachObject == obj) != NotMode)
+				newArray[newArray.length] = eachObject;
+		return newArray;
 	}
 }

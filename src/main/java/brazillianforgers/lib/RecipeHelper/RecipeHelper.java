@@ -11,8 +11,7 @@ public class RecipeHelper {
 	public static Recipe[] filterTags(Recipe[] recipes, String tag, boolean NotMode)
 	{
 		Recipe[] filterRecipes = {};
-		for(int i = 0; i < recipes.length; i++) if (recipes[i].doHaveTag(tag) != NotMode) filterRecipes[filterRecipes.length] = recipes[i];
-		
+		for(Recipe eachRecipe : filterRecipes) if (eachRecipe.doHaveTag(tag) != NotMode) filterRecipes[filterRecipes.length] = eachRecipe;
 		return filterRecipes;
 	}
 	
