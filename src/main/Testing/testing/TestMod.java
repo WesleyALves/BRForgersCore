@@ -10,6 +10,6 @@ public class TestMod {
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent e)
 	{
-		
+		RecipeHandler.addToRecipes(new CraftingObject());
 	}
 }

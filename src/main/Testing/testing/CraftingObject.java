@@ -7,7 +7,8 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 public class CraftingObject implements ICraftable {
-
+	public CraftingObject() {}
+	
 	@Override
 	public Recipe[] getRecipes() {
 		Recipe[] r = {new Recipe(new ItemStack(Items.diamond),new ItemStack(Blocks.dirt))};
