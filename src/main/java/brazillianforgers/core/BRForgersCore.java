@@ -71,5 +71,9 @@ public class BRForgersCore
 		
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent e)
-	{}
+	{
+		//logger.debug("Loading PostInitialization Modules..");
+		
+		//logger.debug("All PostInit Modules Loaded!");
+	}
 }
