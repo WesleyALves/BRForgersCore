@@ -1,12 +1,17 @@
 package brazillianforgers.lib.RecipeHelper;
 
-public abstract class BaseRecipeHandler implements IRecipeHandler
+/**
+ * Every class that extends it will act as a Recipe Handler.
+ *
+ */
+public abstract class BaseRecipeHandler
 {
 	public Recipe[] recipes = {};
 	
 	public void addToRecipes(ICraftable craftableObject)
 	{
-		recipes[recipes.length] = craftableObject.getRecipe();
+		Recipe[] enteredRecipes = craftableObject.getRecipes();
+			for (Recipe eachRecipe: enteredRecipes)	recipes[recipes.length] = eachRecipe;
 	}
 	
 	public void registerRecipes()
